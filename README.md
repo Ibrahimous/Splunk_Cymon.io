@@ -15,9 +15,9 @@ A python script that can be used by a Splunk custom command to query the EnCase 
 1. Add the following to your Splunk apps `$SPLUNK_HOME/etc/apps/<app_name>local/commands.conf`
 ```python
 [encase]
-filename = encasesplunk.py
+filename = splunk_to_encase.py
 ```
-2. Add encasesplunk.py to `$SPLUNK_HOME/etc/apps/<app_name>/bin/`
+2. Add splunk_to_encase.py to `$SPLUNK_HOME/etc/apps/<app_name>/bin/`
 
 #### Usage
 #####To query an IP
